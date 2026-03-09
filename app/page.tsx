@@ -83,7 +83,7 @@ export default function Home() {
                 </h1> */}
 
                 <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-                  Front End Engineer
+                  Software Engineer
                 </h2>
                 <p className="mt-4 max-w-xs leading-normal text-slate-400">
                   I turn ideas into pixel-perfect digital experiences and build powerful backend systems users can trust.
