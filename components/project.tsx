@@ -190,24 +190,6 @@ export const Project = () => {
                     </div>
                 ))}
             </div>
-
-            {/* Project Stats */}
-            <div className="mt-20 text-center">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-2xl mx-auto">
-                    <div className="space-y-2">
-                        <div className="text-3xl font-bold text-white">{data.length}</div>
-                        <div className="text-zinc-400 text-sm">Projects Completed</div>
-                    </div>
-                    <div className="space-y-2">
-                        <div className="text-3xl font-bold text-white">100%</div>
-                        <div className="text-zinc-400 text-sm">Success Rate</div>
-                    </div>
-                    <div className="space-y-2">
-                        <div className="text-3xl font-bold text-white">4+</div>
-                        <div className="text-zinc-400 text-sm">Technologies</div>
-                    </div>
-                </div>
-            </div>
         </div>
     )
 }
