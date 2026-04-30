@@ -8,7 +8,7 @@ const experiences = [
         link: 'https://https://cedirates.com/',
         description:
             "Build and maintain critical components used to construct CediRate's frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
-        technologies: ['Next.js', 'TypeScript', 'Tailwind'],
+        technologies: ['Next.js', 'TypeScript', 'Tailwind', 'Node.js', 'MongoDB'],
     },
     {
         period: '2024 — 2025',

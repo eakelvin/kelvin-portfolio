@@ -101,16 +101,16 @@ export default [
     // website: "https://app.edfrica.com/",
     status: "true",
   },
-  {
-    id: 4,
-    title: "MAVE SPORTS - Sports Content",
-    description:
-      "Designed for sports-related content, with a strong focus on design, aesthetics, and modern style. It features informative sliders, unique carousels, dropdown menus, and search functionality to enhance user experience and content discovery.",
-    logo: [mpH, mpHo, mpHom, mpHome],
-    skills: ["WORDPRESS"],
-    website: "https://mavesportsnetwork.com/",
-    status: "true",
-  },
+  // {
+  //   id: 4,
+  //   title: "MAVE SPORTS - Sports Content",
+  //   description:
+  //     "Designed for sports-related content, with a strong focus on design, aesthetics, and modern style. It features informative sliders, unique carousels, dropdown menus, and search functionality to enhance user experience and content discovery.",
+  //   logo: [mpH, mpHo, mpHom, mpHome],
+  //   skills: ["WORDPRESS"],
+  //   website: "https://mavesportsnetwork.com/",
+  //   status: "true",
+  // },
 
   // {
   //   id: 20,
