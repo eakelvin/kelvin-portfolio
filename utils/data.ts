@@ -122,3 +122,20 @@ export default [
   //   github: "",
   // },
 ];
+
+export const projects = [
+  {
+      title: 'Signal',
+      description:
+          'An AI product for overlooked workflows — early concepts taking shape.',
+      status: 'Coming soon',
+      technologies: ['Next.js', 'AI'],
+  },
+  {
+      title: 'Ledger',
+      description:
+          'A focused tool for a niche problem most platforms ignore.',
+      status: 'Coming soon',
+      technologies: ['React Native', 'Supabase'],
+  },
+];

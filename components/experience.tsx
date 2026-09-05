@@ -75,7 +75,9 @@ export function Experience() {
                         </li>
                     ))}
                 </ol>
-                <div className="mt-12">
+
+                {/* COMMENTED RESUME */}
+                {/* <div className="mt-12">
                     <a
                         className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
                         href="https://flowcv.com/resume/r8p9dbnsrn"
@@ -87,7 +89,7 @@ export function Experience() {
                             <ArrowRight className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" />
                         </span>
                     </a>
-                </div>
+                </div> */}
             </div>
         </section>
     );

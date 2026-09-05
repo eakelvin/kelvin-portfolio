@@ -20,23 +20,19 @@ export function Header({ activeSection }: HeaderProps) {
                         </Link>
                     </div>
                     <ul className="flex gap-6 text-xs font-bold uppercase tracking-wider">
-                        {['about', 'experience', 'projects'].map((section) => {
-                            const isProjects = section === "projects";
-                            const href = isProjects ? "/projects" : `#${section}`;
-                            return (
-                                <li key={section}>
-                                    <a
-                                        href={href}
-                                        className={`transition-colors ${activeSection === section
-                                            ? 'text-slate-200'
-                                            : 'text-slate-500 hover:text-slate-200'
-                                            }`}
-                                    >
-                                        {section}
-                                    </a>
-                                </li>
-                            );
-                        })}
+                        {['about', 'projects', 'experience'].map((section) => (
+                            <li key={section}>
+                                <a
+                                    href={`#${section}`}
+                                    className={`transition-colors ${activeSection === section
+                                        ? 'text-slate-200'
+                                        : 'text-slate-500 hover:text-slate-200'
+                                        }`}
+                                >
+                                    {section}
+                                </a>
+                            </li>
+                        ))}
                     </ul>
                 </nav>
             </div>

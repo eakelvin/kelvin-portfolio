@@ -4,8 +4,6 @@ export const navigation = [
   { name: "Projects", href: "/projects" },
   { name: "Contact", href: "/contact" },
   { name: "Resume", href: "https://flowcv.com/resume/r8p9dbnsrn" },
-  // { name: "About", href: "/about" },
-  // { name: "Home", href: "/" },
 ];
 
 export const socialLinks = {
@@ -13,6 +11,8 @@ export const socialLinks = {
   linkedin: "https://www.linkedin.com/in/kelvin-akaba/",
   email: "mailto:akabakelvin@gmail.com",
 };
+
+export const profileImage = "https://github.com/eakelvin.png";
 
 export const socials = [
   {

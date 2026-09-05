@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { profileImage } from "@/utils/links";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -13,33 +14,50 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const title = "Kelvin Akaba | Software Engineer & Technical Founder";
+const description =
+  "I build and validate software products from idea to MVP.";
+const siteUrl = "https://kelvinakaba.com";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "Kelvin Akaba - Full-stack developer",
-    template: "%s | Kelvin Akaba - Full-stack developer",
+    default: title,
+    template: "%s | Kelvin Akaba",
   },
-  description: "turning ideas into polished interfaces and powerful backend systems users can trust",
+  description,
+  keywords: [
+    "Kelvin Akaba",
+    "Software Engineer",
+    "Technical Founder",
+    "AI software products",
+    "MVP",
+    "Next.js",
+    "Full-stack developer",
+  ],
+  authors: [{ name: "Kelvin Akaba", url: "https://github.com/eakelvin" }],
+  creator: "Kelvin Akaba",
   openGraph: {
-    title: "Kelvin Akaba - Full-stack developer",
-    description: "turning ideas into polished interfaces and powerful backend systems users can trust",
-    url: "",
-    siteName: "",
-    images: [
-      {
-        url: "",
-        width: 1920,
-        height: 1080,
-      },
-    ],
+    title,
+    description,
+    url: siteUrl,
+    siteName: "Kelvin Akaba",
     locale: "en-US",
     type: "website",
+    images: [
+      {
+        url: profileImage,
+        width: 460,
+        height: 460,
+        alt: "Kelvin Akaba",
+      },
+    ],
   },
   twitter: {
-    title: "Kelvin Akaba - Full-stack developer",
-    card: "summary_large_image",
-  },
-  icons: {
-    shortcut: "/favicon.png",
+    card: "summary",
+    title,
+    description,
+    images: [profileImage],
   },
 };
 
