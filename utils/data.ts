@@ -125,17 +125,12 @@ export default [
 
 export const projects = [
   {
-      title: 'Signal',
+      title: 'Idea Vault',
       description:
-          'An AI product for overlooked workflows — early concepts taking shape.',
+          'An AI-powered app that quietly researches and develops your raw startup ideas for you',
       status: 'Coming soon',
-      technologies: ['Next.js', 'AI'],
-  },
-  {
-      title: 'Ledger',
-      description:
-          'A focused tool for a niche problem most platforms ignore.',
-      status: 'Coming soon',
-      technologies: ['React Native', 'Supabase'],
+      technologies: ['Next.js', 'Supabase'],
+      github: 'https://github.com/eakelvin/ideas-vault',
+      website: 'https://ideas-vault-pi.vercel.app/',
   },
 ];
