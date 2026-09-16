@@ -20,7 +20,7 @@ export function Header({ activeSection }: HeaderProps) {
                         </Link>
                     </div>
                     <ul className="flex gap-6 text-xs font-bold uppercase tracking-wider">
-                        {['about', 'projects', 'experience'].map((section) => (
+                        {['about', 'projects'].map((section) => (
                             <li key={section}>
                                 <a
                                     href={`#${section}`}

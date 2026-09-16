@@ -7,7 +7,7 @@ export function About() {
                 </h2>
             </div>
             <div className="space-y-4 text-slate-400 leading-relaxed">
-                <p>These days I build AI-powered software products — from idea to MVP.</p>
+                <p>These days I build AI-powered software products.</p>
                 <p>I focus on overlooked markets: problems that are real, but too niche or inconvenient for most companies to chase. What others ignore, I turn into something valuable.</p>
                 <p>Stack: Next.js · Node.js · React Native · PostgreSQL · MongoDB · Supabase</p>
             </div>
