@@ -81,7 +81,7 @@ export default function Home() {
                   width={72}
                   height={72}
                   priority
-                  className="mb-6 h-[72px] w-[72px] rounded-full object-cover ring-1 ring-slate-700/50"
+                  className="mb-6 h-[72px] w-[72px] rounded-full object-cover object-[50%_18%] ring-1 ring-slate-700/50"
                 />
                 <h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
                   Kelvin Akaba

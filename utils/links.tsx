@@ -1,4 +1,5 @@
 import { FileUser, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import profilePhoto from "@/assets/images/kelvinAkaba-technicalFounder.png";
 
 export const navigation = [
   { name: "Projects", href: "/projects" },
@@ -12,7 +13,7 @@ export const socialLinks = {
   email: "mailto:akabakelvin@gmail.com",
 };
 
-export const profileImage = "https://github.com/eakelvin.png";
+export const profileImage = profilePhoto;
 
 export const socials = [
   {

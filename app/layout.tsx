@@ -16,7 +16,7 @@ const geistMono = localFont({
 
 const title = "Kelvin Akaba | Software Engineer & Technical Founder";
 const description =
-  "I build and validate software products from idea to MVP.";
+  "I build and validate software products from idea to MVP—solving real-world problems in markets others overlook.";
 const siteUrl = "https://kelvinakaba.com";
 
 export const metadata: Metadata = {
@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     template: "%s | Kelvin Akaba",
   },
   description,
+  alternates: {
+    canonical: siteUrl,
+  },
   keywords: [
     "Kelvin Akaba",
     "Software Engineer",
@@ -46,10 +49,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: profileImage,
-        width: 460,
-        height: 460,
-        alt: "Kelvin Akaba",
+        url: profileImage.src,
+        width: profileImage.width,
+        height: profileImage.height,
+        alt: "KelvinAkaba-TechnicalFounder",
       },
     ],
   },
@@ -57,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary",
     title,
     description,
-    images: [profileImage],
+    images: [profileImage.src],
   },
 };
 
