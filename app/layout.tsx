@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import { profileImage } from "@/utils/links";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -49,18 +48,19 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: profileImage.src,
-        width: profileImage.width,
-        height: profileImage.height,
-        alt: "KelvinAkaba-TechnicalFounder",
+        url: "/og.jpg",
+        width: 900,
+        height: 1200,
+        alt: "Kelvin Akaba — Software Engineer & Technical Founder",
+        type: "image/jpeg",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title,
     description,
-    images: [profileImage.src],
+    images: ["/og.jpg"],
   },
 };
 
